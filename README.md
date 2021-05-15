@@ -19,7 +19,7 @@ Ex: Công việc đầy tiên cần thực hiện là update web và tiếp theo
 - Tái sử dụng được các bước triển khai trước đó (các bước lặp đi lặp lại khi cài đặt, cấu hình máy chủ, cấu hình ứng dụng)
 - Tự động hóa và áp dụng hàng loạt các việc trên hoàng loạt các server, hàng loạt các ứng dụng với các inventory và các playbook trong thời gian ngắn nhất.
 
-1. **Cà**** i đặt Ansible:**
+1. **Cài đặt Ansible:**
 
 - Cài đặt Ansible sẽ phụ thuộc vào môi trường và mỗi môi trường sẽ có cách cài đặt khác nhau ([kham khảo](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)). Mỗi clustering chỉ cẩn một máy chủ ansible thực thi và ssh tới các node để triển khai.
 
