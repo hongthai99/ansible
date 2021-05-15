@@ -1,4 +1,4 @@
-![](RackMultipart20210515-4-aquj9i_html_b02dcb41ed6d21e0.png)
+
 
 1. **Ansible là gì ?, được dùng khi nào ?**
 
