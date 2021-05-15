@@ -34,7 +34,7 @@ Ex: Công việc đầy tiên cần thực hiện là update web và tiếp theo
 - Sử dụng username, port của ssh để khai báo trong inventory.
 - Sử dụng ssh keypair. Sẽ có cặp public key và private key trên node AnsibleServer và copy sang các node client ( [Examble of rsa key pair](https://news.cloud365.vn/10-phut-ansible-co-ban-phan-4-viet-playbook-tren-ansible/) )
 
-1. **Ad**** -hoc command Ansible.**
+1. **Ad -hoc command Ansible.**
 
 - Khi vận hành hệ thống, sẽ có những tác vụ phải thực hiện đi thực hiện lại nhiều lần như: Reset OS, kiểm tra trạng thái của services hoặc là xem file log nào đó và đôi khi là thao tác copy một file nào đó giữa các node.
 - Câu chuyện sẽ không có gì nếu ta chỉ có một vài máy chủ, nhưng giả sử ta cần thực hiện trên hàng loạt node thì lúc này chế độ ad-hoc command của ansible bắt đầu thể hiện được ưu thế của nó.
